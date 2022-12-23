@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.binar.groupmaker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GroupMaker"
+        tools:targetApi="31">
+        <activity
+            android:name="com.binar.groupmaker.ui.splashscreen.SplashScreenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.binar.groupmaker.ui.slider.LandingPageActivity"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.binar.groupmaker.ui.home.HomeActivity"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+        </activity>
+
+
+        <activity
+            android:name="com.binar.groupmaker.ui.aboutpage.menu.MenuAboutActivity"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.binar.groupmaker.ui.aboutpage.about.AboutActivity"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.binar.groupmaker.ui.aboutpage.profile.ProfileActivity"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.binar.groupmaker.ui.aboutpage.team.TeamActivity"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.binar.groupmaker.ui.group.GroupFormActivity"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.binar.groupmaker.ui.member.MemberFormActivity"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.binar.groupmaker.ui.history.HistoryFormActivity"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.binar.groupmaker.ui.history.HistoryDetailFormActivity"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="com.binar.groupmaker.ui.random.RandomizeActivity"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:screenOrientation="portrait" >
+        </activity>
+
+
+
+
+
+
+
+
+    </application>
+
+</manifest>
